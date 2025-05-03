@@ -11,13 +11,14 @@
     "@vitejs/plugin-react": "^4.4.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "5.0.1",
-    "vite": "^6.3.4",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "vite": "^6.3.4"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "browserslist": {
@@ -32,16 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "vite.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ragesunTM/map-spa.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ragesunTM/map-spa/issues"
-  },
-  "homepage": "https://github.com/ragesunTM/map-spa#readme"
+  "engines": {
+    "node": "20.x"
+  }
 }
