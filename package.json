@@ -15,9 +15,6 @@
     "vite": "^6.3.4",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "vite": "^6.3.4"
-  },
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
