@@ -1,6 +1,6 @@
 // src/App.jsx
 import React, { useEffect, useState } from "react";
-import Map from "./components/Map";
+import Map from "./components/Map.jsx";
 import { geocodeAddress } from "./utils/geocode";
 
 const App = () => {
